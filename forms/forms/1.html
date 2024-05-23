@@ -13,12 +13,28 @@
         </div>
   
         <form class="form_container" id="form">
-        <div class="content_input" style="text-align: center;">
-    <h2>My title</h2>
-        <p></p>
-    </div> <div class="content_input" style="text-align: center;">
-    <h2>My image</h2>
-        <img src= alt="image"/>
+        <div class="form_input">
+    
+    <p>Numeric Input</p>
+        <input id="input_name.familyName" type="number"  />
+    </div> <div class="form_input">
+    
+    <p>Boolean Input</p>
+        <label class="switch">
+        <input type="checkbox" id="input_formattedName" />
+        <span class="slider round"></span>
+        </label>
+    </div> <div class="form_input">
+    
+    
+        <p>Select Input</p>
+        <select name="select" id="input_active">
+            <option value="Option 1">Option 1</option> <option value="Option 2">Option 2</option>
+        </select>
+    </div> <div class="form_input">
+    
+    <p>Text Input</p>
+        <input id="input_name.givenName"  />
     </div>
   
           <button type="submit" id='submit_btn'  class="submit-btn">Submit</button>
